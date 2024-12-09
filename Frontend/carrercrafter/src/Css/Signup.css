@@ -1,0 +1,136 @@
+.signup-container {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .signup-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    width: 24rem;
+    max-width: 100%;
+  }
+  
+  .signup-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #1f2937;
+  }
+  
+  .login-type-buttons {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-type-button {
+    width: 50%;
+    padding: 0.5rem;
+    border: none;
+    background-color: #e5e7eb;
+    color: #4b5563;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .login-type-button:first-child {
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+  }
+  
+  .login-type-button:last-child {
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+  }
+  
+  .active-job-seeker {
+    background-color:rgb(22 163 74);
+    color: white;
+  }
+  
+  .active-employer {
+    background-color:rgb(22 163 74);
+    color: white;
+  }
+  
+  .active-admin{
+    background-color:rgb(22 163 74);
+    color: white;
+  }
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(22 163 74);
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-submit-button:hover {
+    background-color:rgb(22 163 74);
+  }
+  
+  .forgot-password {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .forgot-password-link {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-toggle-container {
+    text-align: center;
+  }
+  
+  .signup-toggle-text {
+    color: #6b7280;
+  }
+  
+  .signup-toggle-link {
+    color: #10b981;
+    background: none;
+    border: none;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .signup-toggle-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .signup-card {
+      width: 100%;
+      padding: 1rem;
+    }
+  }

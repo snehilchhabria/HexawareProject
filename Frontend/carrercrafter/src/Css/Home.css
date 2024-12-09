@@ -1,0 +1,104 @@
+.custom-container {
+    padding: 20px;
+    text-align: center;
+    /* width: 100%; */
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    background-color:rgb(239 246 255);
+  }
+  
+
+
+/* Optional: Add any additional custom styles specific to the Home component */
+.hero-section {
+    background-color: #f0f4f8;
+}
+
+
+.search-container {
+  max-width: 42rem;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.search-wrapper {
+  display: flex;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+}
+
+.search-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
+
+.search-icon {
+  margin-right: 0.5rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.feature-icon {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.blue-icon {
+  color: #2563eb;
+}
+
+.green-icon {
+  color: #10b981;
+}
+
+.purple-icon {
+  color: #8b5cf6;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.feature-description {
+  color: #6b7280;
+}
+
+/* If you want to add any global or specific styles for the home page */
+input::placeholder {
+    color: #6b7280;
+    opacity: 0.8;
+}
